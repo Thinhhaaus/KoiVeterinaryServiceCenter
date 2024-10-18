@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Direct Veterinary Consultation Service</title>
+    <link rel="stylesheet" href="Consult.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Standard Care</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="breadcrumb">
+            <a href="#">Service</a> &gt; <a href="#">Online doctor consultation</a> &gt; <a style="color: darkorange;">Payment</a> 
+        </section>
+        
+        <section class="consultation">
+            <div class="circle" style="margin-left: 70%;"></div>
+            <h1>Direct veterinary consultation service</h1>
+            <p>Welcome to our direct consulting service! We are always ready to support you in all situations related to caring for and treating koi fish.</p>
+            <p>To make the consultation session most effective, please prepare the following information:</p>
+            <ul>
+                <li>Basic information about your koi fish</li>
+                <li>Information about your aquarium (capacity, number of fish, etc.)</li>
+                <li>Water quality parameters (ammonia, nitrite, nitrate, pH, water hardness, temperature, salinity)</li>
+                <li>Illustrative images or videos (sending videos is encouraged)</li>
+            </ul>
+            <form>
+                <div class="form-row">
+                    <div>
+                        <label for="first-name">First name</label>
+                        <input type="text" id="first-name" placeholder="Your first name">
+                    </div>
+                    <div>
+                        <label for="last-name">Last name</label>
+                        <input type="text" id="last-name" placeholder="Your last name">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div>
+                        <label for="phone">Phone number</label>
+                        <input type="text" id="phone" placeholder="Contact number">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Contact Email">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <label for="consulting-time">Consulting time (please choose one)</label>
+                    <select id="consulting-time">
+                        <option>15 minutes</option>
+                        <option>30 minutes</option>
+                        <option>1 hour</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <label for="messages">Messages</label>
+                    <textarea id="messages" placeholder="Write your message"></textarea>
+                </div>
+                <div class="summary">
+                    <p>Summary</p>
+                    <p>Online Consultation: $150.05</p>
+                    <p>Total: $150.05</p>
+                </div>
+                <div class="payment-method">
+                    <p>Payment method</p>
+                    <div>
+                        <input type="radio" id="credit-card" name="payment-method" checked>
+                        <label for="credit-card">Credit card</label>
+                        <input type="radio" id="paypal" name="payment-method">
+                        <label for="paypal">PayPal</label>
+                    </div>
+                    <div class="credit-card-info">
+                        <label for="card-name">Name on card</label>
+                        <input type="text" id="card-name">
+                        <label for="card-number">Card number</label>
+                        <input type="text" id="card-number">
+                        <label for="expiry">Expiry date</label>
+                        <input type="text" id="expiry" placeholder="MM/YY">
+                        <label for="cvc">CVC</label>
+                        <input type="text" id="cvc">
+                    </div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+        <footer>
+            <p>© 2024 - Koi Health Care</p>
+        </footer>
+    </main>
+</body>
+</html>

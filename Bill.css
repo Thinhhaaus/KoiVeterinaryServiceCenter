@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    background-color: #f4f4f4;
+    padding: 15px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align items to the right */
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.profile-icon {
+    margin-left: 10px;
+}
+
+.profile-icon img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.result-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.appointment-info, .examination-results, .prescription, .service-evaluation, .doctor-patient-info {
+    margin: 20px 0;
+    text-align: left;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.appointment-info p, .examination-results p, .prescription p, .service-evaluation p {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.status-good {
+    color: green;
+    font-weight: bold;
+}
+
+.doctor-patient-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.doctor-info, .patient-info {
+    width: 48%;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.doctor-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #2b4e96, #c65c2e); /* Blue to orange gradient */
+    color: white;
+    padding: 15px 20px;
+    margin-top: 30px;
+}
+
+footer .footer-left p {
+    color: white;
+}
+
+footer .footer-right a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+footer .footer-right a:hover {
+    text-decoration: underline;
+}

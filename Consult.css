@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+}
+.circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-image: url('path/to/your/image.png');
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #007bff;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.breadcrumb {
+    font-size: 14px;
+    color: #888;
+}
+
+.consultation h1 {
+    font-size: 24px;
+}
+
+form {
+    padding: 20px;
+    background-color: #4879dc;
+    border-radius: 8px;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.form-row input, .form-row select, .form-row textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.summary {
+    padding: 10px;
+    background-color: #4879dc;
+    margin-bottom: 15px;
+}
+
+.payment-method {
+    padding: 10px;
+    background-color: #eee;
+}
+
+.credit-card-info input {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #c65c2e; 
+    color: #fff;
+}
