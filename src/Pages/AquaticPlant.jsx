@@ -2,7 +2,7 @@ import React from 'react'
 import "../assets/css/styles1.css"
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-
+import { Link } from 'react-router-dom'
 function AquaticPlant() {
     
     return (
@@ -77,6 +77,7 @@ function AquaticPlant() {
                         environment.
                     </p>
                 </div>
+                <button type="button" class="btn btn-outline-primary btn-lg"><Link to={`/KoiFood`}>Next</Link></button>
             </section>
             <Footer></Footer>
         </>

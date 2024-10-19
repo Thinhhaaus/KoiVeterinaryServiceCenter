@@ -5,6 +5,7 @@ import SignIn from './Pages/SignIn';
 import SignUp from './Pages/SignUp';
 import StandardCare from './Pages/StandardCare';
 import AquaticPlant from './Pages/AquaticPlant';
+import KoiFood from './Pages/KoiFood';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/Sign-Up" element={<SignUp />} />
         <Route path="/StandardCare" element={<StandardCare />} />
         <Route path="/AquaticPlant" element={<AquaticPlant />} />
+        <Route path="/KoiFood" element={<KoiFood />} />
       </Routes>
     </Router>
   );
