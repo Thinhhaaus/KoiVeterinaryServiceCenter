@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // En
 import HomePage from './pages/HomePage';
 import SignIn from './Pages/SignIn';
 import SignUp from './Pages/SignUp';
+import StandardCare from './Pages/StandardCare';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/login" element={<SignIn />} />
         <Route path="/Sign-Up" element={<SignUp />} />
+        <Route path="/StandardCare" element={<StandardCare />} />
       </Routes>
     </Router>
   );
