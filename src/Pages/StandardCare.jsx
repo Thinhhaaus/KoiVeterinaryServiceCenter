@@ -2,6 +2,7 @@ import React from 'react'
 import "../assets/css/styles.css"
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import { Link } from 'react-router-dom'
 function StandardCare() {
     return (
         <div><>
@@ -9,9 +10,9 @@ function StandardCare() {
             <meta charSet="UTF-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <title>Standard Care of Koi Fish</title>
-           
+
             {/* Navigation */}
-            <Header/>
+            <Header />
             {/* Hero Section */}
             <section className="hero">
                 <div className="hero-content">
@@ -275,6 +276,8 @@ function StandardCare() {
                         </div>
                     </div>
                 </div>
+                <button type="button" class="btn btn-outline-primary btn-lg"><Link to={`/AquaticPlant`}>Next</Link></button>
+
             </div>
             {/* Footer Section */}
             <Footer></Footer>

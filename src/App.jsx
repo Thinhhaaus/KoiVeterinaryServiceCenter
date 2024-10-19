@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage';
 import SignIn from './Pages/SignIn';
 import SignUp from './Pages/SignUp';
 import StandardCare from './Pages/StandardCare';
+import AquaticPlant from './Pages/AquaticPlant';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/login" element={<SignIn />} />
         <Route path="/Sign-Up" element={<SignUp />} />
         <Route path="/StandardCare" element={<StandardCare />} />
+        <Route path="/AquaticPlant" element={<AquaticPlant />} />
       </Routes>
     </Router>
   );
