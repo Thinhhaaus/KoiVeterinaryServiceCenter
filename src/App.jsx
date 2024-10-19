@@ -6,11 +6,12 @@ import SignUp from './Pages/SignUp';
 import StandardCare from './Pages/StandardCare';
 import AquaticPlant from './Pages/AquaticPlant';
 import KoiFood from './Pages/KoiFood';
+import KoiLifespan from './Pages/KoiLifespan';
 
 
 function App() {
   const [count, setCount] = useState(0);
-
+  
   return (
     <Router>
       <Routes>
@@ -20,6 +21,7 @@ function App() {
         <Route path="/StandardCare" element={<StandardCare />} />
         <Route path="/AquaticPlant" element={<AquaticPlant />} />
         <Route path="/KoiFood" element={<KoiFood />} />
+        <Route path="/KoiLifespan" element={<KoiLifespan />} />
       </Routes>
     </Router>
   );
