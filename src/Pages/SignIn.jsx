@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function SignIn() {
     return (
@@ -53,18 +54,10 @@ function SignIn() {
                                                 </label>
                                             </div>
                                             <div className="pt-1 mb-4">
-                                                <button
-                                                    data-mdb-button-init=""
-                                                    data-mdb-ripple-init=""
-                                                    className="btn btn-dark btn-lg btn-block"
-                                                    type="button"
-                                                >
-                                                    <a
-                                                        href="./bootstrap-5-full-carousel-cover-template-main/Homepage.html"
-                                                        style={{ color: "azure" }}
-                                                    >
+                                                <button className="btn btn-dark btn-lg btn-block" type="button">
+                                                    <Link to="/" style={{ color: "azure", textDecoration: "none" }}>
                                                         Login
-                                                    </a>
+                                                    </Link>
                                                 </button>
                                             </div>
                                             <a className="small text-muted" href="#!">
