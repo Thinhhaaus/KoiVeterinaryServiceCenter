@@ -13,38 +13,38 @@ function Footer() {
                             <use xlinkHref="#bootstrap" />
                         </svg>
                     </a>
-                    <p className="text-muted">© 2024 Your Company Name</p>
+                    <p className="text-light">© 2024 Your Company Name</p>
                 </div>
                 <div className="col mb-3">
                     <h5>Contact Us</h5>
-                    <p className="text-muted">info@example.com</p>
-                    <p className="text-muted">+1 (234) 567-8900</p>
+                    <p className="text-light">info@example.com</p>
+                    <p className="text-light">+1 (234) 567-8900</p>
                 </div>
                 <div className="col mb-3">
                     <h5>Quick Links</h5>
                     <ul className="nav flex-column">
                         <li className="nav-item mb-2">
-                            <a href="#" className="nav-link p-0 text-muted">
+                            <a href="#" className="nav-link p-0 text-light">
                                 Home
                             </a>
                         </li>
                         <li className="nav-item mb-2">
-                            <a href="#" className="nav-link p-0 text-muted">
+                            <a href="#" className="nav-link p-0 text-light">
                                 Features
                             </a>
                         </li>
                         <li className="nav-item mb-2">
-                            <a href="#" className="nav-link p-0 text-muted">
+                            <a href="#" className="nav-link p-0 text-light">
                                 Pricing
                             </a>
                         </li>
                         <li className="nav-item mb-2">
-                            <a href="#" className="nav-link p-0 text-muted">
+                            <a href="#" className="nav-link p-0 text-light">
                                 FAQs
                             </a>
                         </li>
                         <li className="nav-item mb-2">
-                            <a href="#" className="nav-link p-0 text-muted">
+                            <a href="#" className="nav-link p-0 text-light">
                                 About
                             </a>
                         </li>
@@ -54,27 +54,27 @@ function Footer() {
                     <h5>Resources</h5>
                     <ul className="nav flex-column">
                         <li className="nav-item mb-2">
-                            <a href="#" className="nav-link p-0 text-muted">
+                            <a href="#" className="nav-link p-0 text-light">
                                 Documentation
                             </a>
                         </li>
                         <li className="nav-item mb-2">
-                            <a href="#" className="nav-link p-0 text-muted">
+                            <a href="#" className="nav-link p-0 text-light">
                                 Support
                             </a>
                         </li>
                         <li className="nav-item mb-2">
-                            <a href="#" className="nav-link p-0 text-muted">
+                            <a href="#" className="nav-link p-0 text-light">
                                 Terms of Service
                             </a>
                         </li>
                         <li className="nav-item mb-2">
-                            <a href="#" className="nav-link p-0 text-muted">
+                            <a href="#" className="nav-link p-0 text-light">
                                 Privacy Policy
                             </a>
                         </li>
                         <li className="nav-item mb-2">
-                            <a href="#" className="nav-link p-0 text-muted">
+                            <a href="#" className="nav-link p-0 text-light">
                                 Blog
                             </a>
                         </li>
@@ -84,27 +84,27 @@ function Footer() {
                     <h5>Follow Us</h5>
                     <ul className="nav flex-column">
                         <li className="nav-item mb-2">
-                            <a href="#" className="nav-link p-0 text-muted">
+                            <a href="#" className="nav-link p-0 text-light">
                                 Facebook
                             </a>
                         </li>
                         <li className="nav-item mb-2">
-                            <a href="#" className="nav-link p-0 text-muted">
+                            <a href="#" className="nav-link p-0 text-light">
                                 Twitter
                             </a>
                         </li>
                         <li className="nav-item mb-2">
-                            <a href="#" className="nav-link p-0 text-muted">
+                            <a href="#" className="nav-link p-0 text-light">
                                 Instagram
                             </a>
                         </li>
                         <li className="nav-item mb-2">
-                            <a href="#" className="nav-link p-0 text-muted">
+                            <a href="#" className="nav-link p-0 text-light">
                                 LinkedIn
                             </a>
                         </li>
                         <li className="nav-item mb-2">
-                            <a href="#" className="nav-link p-0 text-muted">
+                            <a href="#" className="nav-link p-0 text-light">
                                 YouTube
                             </a>
                         </li>

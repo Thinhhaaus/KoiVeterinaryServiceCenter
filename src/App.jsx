@@ -7,6 +7,7 @@ import StandardCare from './Pages/StandardCare';
 import AquaticPlant from './Pages/AquaticPlant';
 import KoiFood from './Pages/KoiFood';
 import KoiLifespan from './Pages/KoiLifespan';
+import Contact from './Pages/Contact';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/AquaticPlant" element={<AquaticPlant />} />
         <Route path="/KoiFood" element={<KoiFood />} />
         <Route path="/KoiLifespan" element={<KoiLifespan />} />
+        <Route path="/Contact" element={<Contact />} />
       </Routes>
     </Router>
   );

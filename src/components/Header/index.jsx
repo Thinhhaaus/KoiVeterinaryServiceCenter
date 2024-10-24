@@ -2,9 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 function Header() {
-  return (
-    <>
-    <header className="text-black bg-light shadow-sm">
+    return (
+        <>
+            <header className="text-black bg-light shadow-sm">
                 <div className="container">
                     <div className="d-flex flex-wrap align-items-center justify-content-between py-3 ">
                         <a
@@ -44,9 +44,7 @@ function Header() {
                                 </a>
                             </li>
                             <li>
-                                <a href="#" className="nav-link px-3 text-dark link-hover">
-                                    Contact
-                                </a>
+                                <Link to={`/Contact`} className="nav-link px-3 text-dark link-hover">Contact </Link>
                             </li>
                         </ul>
                         <div className="col-md-3 text-end">
@@ -59,8 +57,8 @@ function Header() {
                     </div>
                 </div>
             </header>
-    </>
-  )
+        </>
+    )
 }
 
 export default Header
