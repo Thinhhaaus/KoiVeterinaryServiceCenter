@@ -39,9 +39,7 @@ function Header() {
                                 <Link to={`/StandardCare`} className="nav-link px-3 text-dark link-hover">Standard Care </Link>
                             </li>
                             <li>
-                                <a href="#" className="nav-link px-3 text-dark link-hover">
-                                    FAQ's
-                                </a>
+                                <Link to={`/FAQ's`} className="nav-link px-3 text-dark link-hover">FAQ's </Link>
                             </li>
                             <li>
                                 <Link to={`/Contact`} className="nav-link px-3 text-dark link-hover">Contact </Link>

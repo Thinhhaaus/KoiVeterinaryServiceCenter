@@ -9,7 +9,6 @@ import KoiFood from './Pages/KoiFood';
 import KoiLifespan from './Pages/KoiLifespan';
 import Contact from './Pages/Contact';
 
-
 function App() {
   const [count, setCount] = useState(0);
   
@@ -24,6 +23,7 @@ function App() {
         <Route path="/KoiFood" element={<KoiFood />} />
         <Route path="/KoiLifespan" element={<KoiLifespan />} />
         <Route path="/Contact" element={<Contact />} />
+        <Route path="/FAQ's" element={<FAQ />} />
       </Routes>
     </Router>
   );
